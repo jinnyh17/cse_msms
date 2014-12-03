@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+      <!-- selected 선택되었을경우 -->
+	<item 
+		android:state_selected="true"
+		android:drawable="@drawable/b_setting_info"/>
+		  
+	<!-- pressed 눌렀을 경우-->    	
+	<item 
+		android:state_pressed="true" 
+		android:drawable="@drawable/b_setting_info"/>
+	
+	<!-- focused -->
+	<item 
+		android:state_focused="true"
+		android:drawable="@drawable/b_setting_info"/>
+	  
+	<!-- disabled 사용 안할때 -->    
+	<item 
+		android:state_enabled="false"
+		android:drawable="@drawable/b_setting_info"/>     
+		  
+	<!-- default -->
+	<item 
+		android:drawable="@drawable/b_setting_info"/>
+
+</selector>
